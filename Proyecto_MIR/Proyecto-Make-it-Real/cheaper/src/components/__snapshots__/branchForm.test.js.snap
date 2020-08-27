@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BranchForm should render correctly 1`] = `
+<div
+  class="App-Branch"
+>
+  <div
+    class="FormContainer"
+  >
+    <img
+      alt="Logo"
+      class="NavBar-Logo-Branch"
+      src="logo.png"
+    />
+    <div
+      class="PaginaNew-Branch"
+    >
+      <h1
+        class="TitleForm"
+      >
+        Ingresa los datos de la sucursal
+      </h1>
+      <div
+        class="InputsNew-Branch"
+      >
+        <form
+          class="BranchForm"
+          data-testid="BranchForm"
+        >
+          <input
+            class="Branch-Name"
+            name="branchName"
+            placeholder=" Nombre de sucursal"
+            type="text"
+            value=""
+          />
+          <input
+            class="Branch-Adress"
+            name="branchAdress"
+            placeholder=" Dirección sucursal"
+            type="text"
+            value=""
+          />
+          <button
+            class="SubmitBranch"
+            type="submit"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

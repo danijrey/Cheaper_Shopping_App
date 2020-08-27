@@ -1,0 +1,160 @@
+.AppLog {
+	width: 100vmin;
+	height: 100vmin;
+	text-align: center;
+	background-color: black;
+}
+
+.Login {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+		url("../assets/Carros.jpg") no-repeat center top;
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.NavBar-Logo-Login {
+	width: 300px;
+	margin: 20px;
+}
+
+.Pagina-Login {
+	width: 270px;
+	height: 290px;
+	margin: 20px;
+	padding: 10px;
+	background-color: rgba(48, 48, 48, 0.8);
+	border-radius: 10px;
+}
+
+.Bienvenido {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.Frase {
+	font-weight: 600px;
+	margin: 5px;
+}
+
+.Botones-Login {
+	display: flex;
+	justify-content: center;
+}
+
+.Input-Correo {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	width: 200px;
+	border-radius: 10px;
+	background: white;
+	border-color: rgb(183, 185, 178);
+	cursor: pointer;
+}
+
+.Input-Password {
+	display: block;
+	padding-left: 10px;
+	height: 35px;
+	width: 200px;
+	border-radius: 10px;
+	background: white;
+	border-color: rgb(183, 185, 178);
+	cursor: pointer;
+}
+
+.SubmitButton {
+	display: block;
+	margin-top: 20px;
+	margin-left: 25px;
+	height: 40px;
+	width: 150px;
+	border-radius: 20px;
+	padding-top: 6px;
+	font-weight: 600;
+	background: #e0c408c9;
+	border-color: black;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.SubmitButton:hover {
+	background: #e0c308;
+}
+
+@media screen and (min-width: 992px) {
+	.Login {
+		width: 1440px;
+		height: 620px;
+	}
+
+	.NavBar-Logo-Login {
+		width: 400px;
+		margin: 15px;
+	}
+
+	.Pagina-Login {
+		width: 350px;
+		height: 300px;
+	}
+	.Input-Correo {
+		grid-gap: 30px;
+		font-weight: 500;
+	}
+
+	.Input-Password {
+		font-weight: 500;
+	}
+
+	.SubmitButton {
+		font-weight: 500;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.Login {
+		width: 1440px;
+		height: 620px;
+	}
+
+	.NavBar-Logo-Login {
+		width: 400px;
+		margin: 15px;
+	}
+
+	.Pagina-Login {
+		width: 350px;
+		height: 300px;
+	}
+	.Input-Correo {
+		grid-gap: 50px;
+		font-weight: 500;
+		width: 250px;
+		height: 40px;
+	}
+
+	.Input-Password {
+		font-weight: 500;
+		width: 250px;
+		height: 40px;
+		margin-top: 20px;
+		margin-bottom: 35px;
+	}
+
+	.SubmitButton {
+		font-weight: 500;
+		margin-left: 50px;
+	}
+}

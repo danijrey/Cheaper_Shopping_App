@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cheaperservices
+spec:
+  selector:
+    app: cheaperlabel
+  type: LoadBalancer
+  ports:
+    - name: cheaperbackendport
+      port: 8080
+      targetPort: 8080
+    - name: cheaperfrontendport
+      port: 3000
+      targetPort: 3000
+  externalIPs:
+    - 10.104.68.1

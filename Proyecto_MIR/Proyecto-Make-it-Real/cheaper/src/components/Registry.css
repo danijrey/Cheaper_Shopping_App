@@ -1,0 +1,165 @@
+.App {
+	width: 100vmin;
+	height: 100vmin;
+	text-align: center;
+	background-color: white;
+}
+
+.PaginadeRegistro {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+		url("../assets/Carros.jpg") no-repeat center top;
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.NavBar-Logo-Registry {
+	width: 300px;
+	margin: 20px;
+}
+
+.PaginaDeRegistro-Formurlario {
+	width: 270px;
+	height: 290px;
+	margin: 20px;
+	padding: 10px;
+	background-color: rgba(48, 48, 48, 0.8);
+	border-radius: 10px;
+}
+
+.Bienvenido {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.Frase {
+	font-weight: 600;
+	margin: 5px;
+}
+
+.Botones-Ingreso {
+	margin-top: 18px;
+	display: flex;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 250px;
+	grid-template-rows: 40px 40px 40px;
+	grid-gap: 18px;
+}
+
+.Boton-IniciarSesion {
+	border-radius: 20px;
+	padding-top: 7px;
+	font-weight: 600;
+	font-size: 15px;
+	background: #e0c408c9;
+	border-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.Boton-IniciarSesion:hover {
+	background: #e0c308;
+}
+
+.Boton-Registrarse {
+	border-radius: 20px;
+	padding-top: 7px;
+	font-weight: 600;
+	font-size: 15px;
+	background: #e0c408c9;
+	border-color: black;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.Boton-Registrarse:hover {
+	background: #e0c308;
+}
+
+.Boton-CrearEmpresa {
+	border-radius: 20px;
+	padding-top: 7px;
+	font-weight: 600;
+	font-size: 15px;
+	background: #e0c408c9;
+	border-color: black;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.Boton-CrearEmpresa:hover {
+	background: #e0c308;
+}
+
+@media screen and (min-width: 768px) {
+	.PaginadeRegistro {
+		width: 768px;
+		height: 529px;
+	}
+	.PaginaDeRegistro-Formurlario {
+		width: 290px;
+		height: 300px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.PaginadeRegistro {
+		width: 1024px;
+		height: 529px;
+	}
+
+	/* .NavBar-Logo {
+		width: 300px;
+		margin: 15px;
+	} */
+
+	.PaginaDeRegistro-Formurlario {
+		width: 350px;
+		height: 350px;
+	}
+	.Botones-Ingreso {
+		grid-gap: 30px;
+	}
+
+	.Bienvenido {
+		font-size: 30px;
+	}
+
+	.Frase {
+		font-weight: 500;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.PaginadeRegistro {
+		width: 1440px;
+		height: 620px;
+	}
+
+	.NavBar-Logo-Registry {
+		width: 400px;
+		margin: 15px;
+	}
+
+	.PaginaDeRegistro-Formurlario {
+		width: 350px;
+		height: 300px;
+	}
+	.Botones-Ingreso {
+		grid-gap: 30px;
+	}
+
+	.Bienvenido {
+		font-size: 30px;
+	}
+
+	.Frase {
+		font-weight: 500;
+	}
+}

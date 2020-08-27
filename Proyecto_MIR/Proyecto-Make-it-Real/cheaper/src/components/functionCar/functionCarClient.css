@@ -1,0 +1,102 @@
+.ulListProduct {
+  margin: 5px;
+  padding: 5px;
+}
+.productListCar {
+  list-style: none;
+}
+.card-productCar {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  align-items: center;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 5px;
+  border-color: whitesmoke;
+  background-color: #e0c408c9;
+}
+
+.img-Products {
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+.nameProductCar {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 30px;
+}
+
+.priceProductCar {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-top: 0;
+  margin-right: 40px;
+}
+
+.cantProductCar {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-top: 0;
+  margin-right: 40px;
+}
+
+.total {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.footer {
+  background-color: rgba(128, 128, 128, 0.514);
+  margin-bottom: 0;
+  height: 130px;
+  padding-top: 10%;
+}
+
+.shopppingTotal {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  text-align: center;
+}
+
+.shoppingTotalText {
+  color: #e0c408c9;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.shoppingValue {
+  color: #e0c408c9;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.buy {
+  background-color: #e0c408c9;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 7px;
+  border-color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buy:hover {
+  background-color: #ffdd00e0;
+}
+

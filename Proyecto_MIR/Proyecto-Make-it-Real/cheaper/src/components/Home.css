@@ -1,0 +1,45 @@
+.App {
+	margin: 0;
+	padding: 0;
+}
+.Home{
+	width: 100%;
+}
+.NavBar-Container {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background-color: #e0c308;
+	width: 100vw;
+}
+.NavBar-Parts {
+	width: 100%;
+	height: 45px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.NavBar-Logo-Home {
+	width: 100px;
+	height: 45px;
+	text-align: center;
+	margin:0px
+}
+
+.NavBar-Icons {
+	color: whitesmoke;
+	cursor: pointer;
+	font-size: 20px;
+	margin: 5px;
+}
+
+.NavBusqueda-Home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+
+

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registry should render correctly 1`] = `
+<div
+  class="App"
+>
+  <div
+    class="PaginadeRegistro"
+  >
+    <img
+      alt="Logo"
+      class="NavBar-Logo-Registry"
+      src="logo.png"
+    />
+    <div
+      class="PaginaDeRegistro-Formurlario"
+    >
+      <h1
+        class="Bienvenido"
+      >
+         Bienvenido a Cheaper 
+      </h1>
+      <p
+        class="Frase"
+      >
+        Encuentra las opciones más económicas 
+      </p>
+      <div
+        class="Botones-Ingreso"
+      >
+        <a
+          class="Boton-IniciarSesion"
+          href="/signin"
+        >
+          Iniciar Sesión
+        </a>
+        <a
+          class="Boton-Registrarse"
+          href="/clients/create"
+        >
+          Registrarse
+        </a>
+        <a
+          class="Boton-CrearEmpresa"
+          href="/providers/create"
+        >
+          Crear una cuenta de empresa
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

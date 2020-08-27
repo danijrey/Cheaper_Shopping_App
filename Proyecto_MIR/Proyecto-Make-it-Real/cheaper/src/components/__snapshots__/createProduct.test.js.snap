@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateProduct should render correctly 1`] = `
+<span
+  class="span-createProduct"
+>
+  <a
+    class="btn-createProduct"
+    data-testid="NewProductLink"
+    href="/products/create"
+  >
+    Crear Producto
+  </a>
+</span>
+`;

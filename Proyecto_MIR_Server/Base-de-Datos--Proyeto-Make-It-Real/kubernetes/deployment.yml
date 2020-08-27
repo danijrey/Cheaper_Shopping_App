@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cheaperdeployment
+spec:
+  selector:
+    matchLabels:
+      app: cheaperlabel
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: cheaperlabel
+    spec:
+      containers:
+        - name: basededatos-proyecto-backend
+          imagePullPolicy: Never
+          image: basededatos-proyecto-backend
+          ports:
+            - containerPort: 8080
+        - name: proyectomakeitreal-frontend
+          imagePullPolicy: Never
+          image: proyectomakeitreal-frontend
+          ports:
+            - containerPort: 3000

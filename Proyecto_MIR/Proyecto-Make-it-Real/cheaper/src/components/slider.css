@@ -1,0 +1,105 @@
+Carousel.Item {
+    height: 100%;
+}
+.container-slider {
+    max-height: fit-content;
+    margin-top: 15px;  
+}
+
+
+.Food {
+    height: 200px;
+    width: 375px;
+}
+
+.H3-Food {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+}
+
+.P-Food {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+    font-weight: 500;
+}
+
+.Fruver {
+    height: 200px;
+    width: 375px;   
+}
+
+.H3-Fruver {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+}
+
+.P-Fruver{
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+    font-weight: 500;
+}
+
+.Pan {
+    height: 200px;
+    width: 375px;
+    font-weight: 500;
+      
+}
+
+.H3-Pan {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+}
+
+.P-Pan {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+    font-weight: 500;
+}
+
+.Chocolate {
+    height: 200px;
+    width: 375px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.H3-Chocolate {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+}
+
+.P-Chocolate {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+    font-weight: 500;
+}
+
+.Carne {
+    height: 200px;
+    width: 375px; 
+    background-color: rgba(0,0,0,0.8);
+  
+}
+
+.H3-Carne {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+}
+
+.P-Carne {
+    background-color: rgba(0,0,0,0.8); 
+    margin:0px;
+    font-weight: 500;
+} 
+
+.iimgSlider {
+    height: 200px;
+}
+.container-slider > h3{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.container-slider > p {
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+}

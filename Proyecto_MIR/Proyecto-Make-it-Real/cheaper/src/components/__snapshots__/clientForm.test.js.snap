@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClientForm should render correctly 1`] = `
+<div
+  class="App"
+>
+  <div
+    class="FormContainer"
+  >
+    <img
+      alt="Logo"
+      class="NavBar-Logo-Client"
+      src="logo.png"
+    />
+    <div
+      class="PaginaNew-Client"
+    >
+      <h1
+        class="TitleForm"
+      >
+        Ingresa tus datos
+      </h1>
+      <div
+        class="InputsNew-Client"
+      >
+        <form
+          class="ClientForm"
+          data-testid="ClientForm"
+        >
+          <input
+            class="Name"
+            name="name"
+            placeholder=" Nombre"
+            type="text"
+            value=""
+          />
+          <input
+            class="LastName"
+            name="lastname"
+            placeholder=" Apellidos"
+            type="text"
+            value=""
+          />
+          <input
+            class="Correo"
+            name="clientEmail"
+            placeholder=" Correo"
+            type="email"
+            value=""
+          />
+          <input
+            class="Password"
+            name="password"
+            placeholder="Contraseña"
+            type="password"
+            value=""
+          />
+          <button
+            class="SubmitClient"
+            type="submit"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

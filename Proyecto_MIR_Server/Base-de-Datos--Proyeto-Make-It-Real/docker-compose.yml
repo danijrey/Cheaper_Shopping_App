@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    container_name: mongo
+    # # volumes:
+    # #   - ~/Documents/Estudio-2/data/db:/data/db
+    ports:
+      - 27017:27017
+  backend:
+    build: ./
+    restart: always
+    container_name: backend
+    volumes:
+      - ./:/usr/src/app/backend
+    ports:
+      - 8080:8080
+    environment:
+      - SERVER_URL=mongodb://mongo:27017/database
+    stdin_open: true
+  frontend:
+    build: ../Proyecto-Make-it-Real/cheaper/
+    restart: always
+    container_name: frontend
+    volumes:
+      - ../Proyecto-Make-it-Real/cheaper/:/usr/src/app/frontend
+    ports:
+      - 3000:3000
+    env_file:
+      - ../Proyecto-Make-it-Real/cheaper/.env
+    stdin_open: true

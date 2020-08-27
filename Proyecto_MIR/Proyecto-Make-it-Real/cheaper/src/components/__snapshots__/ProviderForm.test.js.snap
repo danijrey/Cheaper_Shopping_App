@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProviderForm should render correctly 1`] = `
+<div
+  class="App"
+>
+  <div
+    class="FormContainer"
+  >
+    <img
+      alt="Logo"
+      class="NavBar-Logo-ProvidersCreate"
+      src="logo.png"
+    />
+    <div
+      class="PaginaNew-Provider"
+    >
+      <h1
+        class="TitleProvider"
+      >
+        Ingresa tus datos
+      </h1>
+      <div
+        class="InputsNew-Provider"
+      >
+        <form
+          class="ProviderForm"
+          data-testid="ProviderForm"
+        >
+          <input
+            class="Name-Provider"
+            id="name"
+            name="name"
+            placeholder="Nombre"
+            type="text"
+            value=""
+          />
+          <input
+            class="Lastname-Provider"
+            id="lastname"
+            name="lastname"
+            placeholder="Apellidos"
+            type="text"
+            value=""
+          />
+          <input
+            class="Empresa-Provider"
+            id="company"
+            name="company"
+            placeholder="Empresa"
+            type="text"
+            value=""
+          />
+          <input
+            class="Nit-Provider"
+            id="nit"
+            name="nit"
+            placeholder="Nit"
+            type="number"
+            value=""
+          />
+          <input
+            class="Correo"
+            id="providerEmail"
+            name="providerEmail"
+            placeholder="Correo"
+            type="email"
+            value=""
+          />
+          <input
+            class="Password-Provider"
+            id="password"
+            name="password"
+            placeholder="Contraseña"
+            type="password"
+            value=""
+          />
+          <button
+            class="SubmitProvider"
+            type="submit"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

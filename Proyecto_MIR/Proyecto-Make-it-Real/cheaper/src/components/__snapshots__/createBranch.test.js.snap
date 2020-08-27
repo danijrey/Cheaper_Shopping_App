@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateBranch should render correctly 1`] = `
+<span
+  class="span-createBranch"
+>
+  <a
+    class="btn-createBranch"
+    data-testid="NewBranchLink"
+    href="/providers/:id/branch/create"
+  >
+    Crear Sucursal
+  </a>
+</span>
+`;

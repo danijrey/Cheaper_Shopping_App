@@ -1,0 +1,79 @@
+.App {
+    color: black;
+    background-color:white ;
+    margin: 10px;
+    align-items: center;
+  }
+  .title-search{
+      margin :1%;
+      padding: 5%;
+      align-items: center;
+      color:#e0c408c9 
+  } 
+  .list {
+    display: grid;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 245px 245px 245px;
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 3%
+
+  }
+  
+  .p-Productos{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  
+  .H3-Productos {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+  }
+  
+  .VerMas {
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  
+  .VerMas:hover{
+    background: rgba(158, 151, 151, 0.829)
+  }
+  
+  
+  .card { 
+    height: 245px;
+    width: 130px;
+    align-items: center;
+    
+  }
+
+  .cards:hover{
+      transform: translateY(-8px);
+      box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+  }
+  
+  .row-search {
+    height: 245px;
+    width: 130px; 
+    display: flex;
+    flex-wrap: wrap;
+  
+
+  }
+  
+  .Imagenes {
+    width: 120px;
+    height: 120px;  
+    margin-top: 8px; 
+    border-radius: 5px;
+  }
+  
+  .footer{
+	background-color: rgba(128, 128, 128, 0.514);
+	margin-bottom: 0;
+	height:130px;
+	padding-top: 10%;
+}

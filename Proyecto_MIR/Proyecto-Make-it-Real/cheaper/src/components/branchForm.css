@@ -1,0 +1,171 @@
+.App-Branch {
+	width: 100vmin;
+	height: 100vmin;
+	text-align: center;
+}
+
+.FormContainer {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+		url("../assets/Carros.jpg") no-repeat center top;
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.NavBar-Logo-Branch {
+	width: 300px;
+	margin: 15px;
+}
+
+.TitleForm {
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin-top: 10px;;
+	text-align: center;
+}
+.BranchForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PaginaNew-Branch {
+	width: 270px;
+	height: 290px;
+	margin: 20px;
+	padding: 10px;
+	background-color: rgba(48, 48, 48, 0.8);
+	border-radius: 10px;
+}
+
+.InputsNew-Branch {
+	display: flex;
+	justify-content: center;
+}
+
+.BranchForm {
+	display: flex;
+	flex-direction: column;
+}
+
+.Branch-Name{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+	background: white;
+	border-color: rgb(183, 185, 178);
+	cursor: pointer;
+}
+
+.Branch-Adress {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+	background: white;
+	border-color: rgb(183, 185, 178);
+	cursor: pointer;
+}
+
+
+.SubmitBranch {
+	display:block;
+	margin-top: 20px;
+	margin-left: 25px;
+	height: 40px;
+	width: 150px;
+	border-radius: 20px;
+	padding-top: 6px;
+	font-weight: 600;
+	background: #e0c408c9;
+	border-color: black;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+.SubmitBranch:hover {
+	background: #e0c308;
+}
+
+
+@media screen and (min-width: 768px) {
+	.FormContainer{
+		width: 768px;
+		height: 529px;
+	}
+	.PaginaNew-Branch {
+		width: 290px;
+		height: 250px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.FormContainer {
+		width: 1440px;
+		height: 620px;
+	}
+
+	.NavBar-Logo-Branch{
+		width: 400px;
+		height: 400px;
+	}
+
+	.PaginaNew-Branch {
+		width: 350px;
+		height: 300px;
+	}
+	.BranchForm {
+		grid-gap: 30px;
+		font-weight: 500;
+	}
+
+	.Branch-Adress {
+		font-weight: 500;
+	}
+	.SubmitBranch {
+			font-weight: 500;
+		}
+
+}
+
+@media screen and (min-width: 1200px) {
+	.FormContainer {
+		width: 1440px;
+		height: 650px;
+	}
+
+	.NavBar-Logo-Branch {
+		width: 500px;
+		height: 500px;
+	}
+
+	.PaginaNew-Branch {
+		width: 350px;
+		height: 300px;
+	}
+	.Branch-Name {
+		grid-gap: 30px;
+		font-weight: 500;
+	}
+
+	.Branch-Adress {
+		font-weight: 500;
+	}
+
+	.SubmitBranch {
+			font-weight: 500;
+		}
+}

@@ -1,0 +1,13 @@
+.btn-createBranch{
+  border-radius: 20px;
+  padding: 7px;
+  font-weight: 600;
+  font-size: 15px;
+  background: #e0c408c9;
+  border-color: black;
+  color: white;
+  cursor: pointer;
+}
+.span-createBranch{
+  margin: 10px;
+}

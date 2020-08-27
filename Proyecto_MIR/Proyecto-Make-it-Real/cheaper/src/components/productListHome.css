@@ -1,0 +1,68 @@
+.App {
+  color: black;
+  background-color:white ;
+  align-items: center;
+
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 130px 130px;
+  grid-auto-rows: 245px;
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 15px;
+
+}
+
+.p-Productos{
+  color: white;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.H3-Productos {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.VerMas {
+  border-radius: 15px;
+  background-color: white;
+  padding: 7px;
+  font-weight: 600;
+  font-size: 15px;
+  border-color: black;
+  color: #e0c408c9;
+  cursor: pointer;
+}
+
+.VerMas:hover{
+  background: rgba(158, 151, 151, 0.829)
+}
+
+.cards {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-radius: 7px;
+  border-color: whitesmoke;
+
+}
+
+.row-List {
+  height: 100%;
+  width: 100%;
+  background-color: #e0c408c9;
+  border-radius: 7px;
+  border-color: whitesmoke;
+}
+
+.Imagenes {
+  width: 120px;
+  height: 120px;
+  margin-top: 8px;
+  border-radius: 5px;
+}
